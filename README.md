@@ -105,6 +105,5 @@ This ensures that product listings, prices, and ratings are always up to date.
  **One-Click Actions**: Add to cart, view deals, or buy instantly
  **Real-Time Data**: Ensures suggestions are accurate and relevant
 
----
 
 
