@@ -13,7 +13,7 @@ function loadApiConfig() {
   const apiVersion = process.env.GEMINI_API_VERSION || "v1beta";
   
 
-  return { apiUrl, apiKey };
+  return {  apiKey };
 }
 
 // Multi-shot examples: multiple shopping Q&A pairs to guide SmartCart

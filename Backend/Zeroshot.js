@@ -10,13 +10,13 @@ function loadApiConfig() {
   if (!apiKey) throw new Error("OPENAI_API_KEY not set in .env file");
 
   const model = process.env.OPENAI_MODEL || "gpt-4.1-mini"; // ✅ OpenAI model
-  const apiUrl = `https://api.openai.com/v1/chat/completions`; // ✅ OpenAI endpoint
+  
 
-  return { apiUrl, apiKey, model };
+  return { apiKey, model };
 }
 
 async function chat() {
-  const { apiUrl, apiKey, model } = loadApiConfig();
+  const { apiKey, model } = loadApiConfig();
 
   console.log("\n============================");
   console.log("  Welcome to SmartCart (Zero-Shot)");
