@@ -11,7 +11,7 @@ function loadApiConfig() {
 
   const model = process.env.GEMINI_MODEL || "gemini-2.0-flash";
   const apiVersion = process.env.GEMINI_API_VERSION || "v1beta";
-  const apiUrl = `https://generativelanguage.googleapis.com/${apiVersion}/models/${model}:generateContent`;
+ 
 
   return { apiUrl, apiKey };
 }
