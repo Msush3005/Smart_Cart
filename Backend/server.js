@@ -65,7 +65,7 @@ app.post('/smartcart/search', async (req, res) => {
     try {
       parsed = JSON.parse(assistantText);
     } catch (err) {
-      return res.status(502).json({ error: "LLM did not return valid JSON", raw: assistantText });
+      return res.status(502).json({ error: "LLM did't return valid JSON", raw: assistantText });
     }
 
     const valid = validate(parsed);
