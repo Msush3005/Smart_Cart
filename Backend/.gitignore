@@ -1,1 +1,5 @@
 .env
+
+
+# Environment variables for the backend server
+node_modules/
